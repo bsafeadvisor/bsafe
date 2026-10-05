@@ -31,3 +31,5 @@ footer{background:var(--navy);color:#dfe6f0;padding:36px 0;font-size:.93rem}foot
 
 .topics{margin:.5em 0;padding-left:20px;font-size:.97rem}.topics li{margin-bottom:.2em}
 .card.wide .topics{columns:2;column-gap:32px}@media(max-width:760px){.card.wide .topics{columns:1}}
+.card.wide .topics{columns:2;column-gap:18px;width:fit-content;margin:.7em auto;font-size:.88rem}
+@media(max-width:760px){.card.wide .topics{columns:1;margin:.6em 0}}
