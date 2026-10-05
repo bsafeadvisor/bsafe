@@ -36,7 +36,7 @@ footer{background:var(--navy);color:#dfe6f0;padding:36px 0;font-size:.93rem}foot
 
 /* header, menu, sticky bar, contact layout */
 .skip{position:absolute;left:-9999px;top:0;background:#fff;color:var(--navy);padding:10px 14px;z-index:100}.skip:focus{left:8px;top:8px}
-header.site .brand img{height:68px}
+header.site .brand img{height:104px}
 .menubtn{display:none;background:none;border:2px solid var(--navy);border-radius:6px;padding:9px 8px;cursor:pointer}
 .menubtn span{display:block;width:22px;height:3px;background:var(--navy);margin:4px 0;border-radius:2px}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
@@ -58,7 +58,7 @@ ul.reach a:hover{background:#eef1f6}ul.reach span{background:var(--navy);color:#
 @media(max-width:760px){
  .bar{display:none}
  header.site .wrap{position:relative}
- header.site .brand img{height:46px}
+ header.site .brand img{height:76px}.brandname{font-size:1.1rem}
  .menubtn{display:block}
  header.site nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--gray);padding:6px 20px 14px;z-index:20;box-shadow:0 8px 16px rgba(0,0,0,.08)}
  header.site nav.open{display:block}
