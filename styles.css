@@ -10,8 +10,8 @@ header.site{border-bottom:1px solid var(--gray)}header.site .wrap{display:flex;a
 header.site .brand{display:flex;align-items:center;gap:16px;text-decoration:none}header.site img{height:104px;width:auto;display:block}.brandname{color:var(--navy);font-weight:800;font-size:1.6rem;line-height:1.1;letter-spacing:.01em}
 header.site nav a{margin-left:18px;color:var(--navy);text-decoration:none;font-weight:600}
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
-.btn{font:inherit;font-weight:700;cursor:pointer;display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:6px;border:2px solid var(--blue)}
-.btn:hover{background:var(--blue-h)}.btn.alt{background:#fff;color:var(--blue)}.btn.alt:hover{background:#eef4fb}
+.btn{font:inherit;font-weight:700;cursor:pointer;display:inline-block;background:var(--navy);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:6px;border:2px solid var(--navy)}
+.btn:hover{background:#34496b}.btn.alt{background:#fff;color:var(--navy)}.btn.alt:hover{background:#eef1f6}
 .hero{padding:56px 0 40px}.hero .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
 .hero img{width:100%;max-width:380px;border-radius:8px;justify-self:center}
 .lead{font-size:1.1rem}.small{font-size:.9rem;color:#555}.pre{font-weight:700;color:var(--navy);margin:20px 0 0}
