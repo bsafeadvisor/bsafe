@@ -4,15 +4,22 @@
 <title>Northern Virginia Security Consultant | B Safe Advisor Group</title>
 <meta name="description" content="Security consulting, private investigations, and safety training for Northern Virginia and Shenandoah Valley organizations and families. Request a consultation.">
 <meta name="robots" content="noindex"><!-- remove at launch -->
-<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="B Safe Advisor Group">
+<meta property="og:title" content="Northern Virginia Security Consultant | B Safe Advisor Group">
+<meta property="og:description" content="Security consulting, private investigations, and safety training for Northern Virginia and Shenandoah Valley organizations and families.">
+<meta property="og:image" content="https://bsafeadvisor.com/og-image.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"B Safe Advisor Group","telephone":"+1-571-643-2338","email":"contact@bsafeadvisor.com","address":{"@type":"PostalAddress","streetAddress":"44927 George Washington Blvd, Suite 265 Rm 359","addressLocality":"Ashburn","addressRegion":"VA","postalCode":"20147","addressCountry":"US"},"areaServed":["Loudoun County","Fairfax County","Arlington County","Prince William County","Fauquier County","Clarke County","Frederick County","Warren County","Shenandoah County","Page County","Rappahannock County","Culpeper County"],"sameAs":["https://www.facebook.com/BSafeAdvisor","https://www.instagram.com/bsafeadvisor/","https://www.linkedin.com/company/bsafeadvisor"]}</script>
 </head><body>
+<a class="skip" href="#main">Skip to content</a>
 <div class="bar"><div class="wrap"><span>Call or text <a href="tel:+15716432338">571-643-2338</a></span><a href="mailto:contact@bsafeadvisor.com">contact@bsafeadvisor.com</a></div></div>
-<header class="site"><div class="wrap"><a class="brand" href="/"><img src="logo.svg" alt=""><span class="brandname">B Safe Advisor Group</span></a>
-<nav><a href="#services">Services</a><a href="#why">Why B Safe Advisor Group</a><a href="#contact">Contact</a></nav></div></header>
+<header class="site"><div class="wrap"><a class="brand" href="/"><img src="logo-horizontal.svg" alt="B Safe Advisor Group"></a>
+<button class="menubtn" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+<nav id="nav"><a href="#services">Services</a><a href="#why">Why B Safe Advisor Group</a><a href="#contact">Contact</a></nav></div></header>
 
-<main>
+<main id="main">
 <div class="hero"><div class="wrap"><div>
 <h1>Your security director, on call.</h1>
 <p class="lead">A physical security consultant, Virginia-licensed private investigator, and safety trainer for the businesses, nonprofits, houses of worship, and families of Northern Virginia, the Shenandoah Valley, and the surrounding areas. Get one advisor with the experience of a paramedic, firefighter, police officer, and federal criminal investigator, without the cost of a full-time hire.</p>
@@ -70,29 +77,35 @@
 <section><div class="wrap"><h2>Credentials</h2>
 <p>Certified Fraud Examiner (CFE) · Nationally Registered Paramedic (NRP) · Virginia-Licensed Private Investigator · Master of Strategic Studies, U.S. Army War College · Member, Mid-Atlantic Organized Retail Crime Alliance, International Association of Financial Crime Investigators, and Federal Law Enforcement Officers Association</p></div></section>
 
-<section class="cta" id="contact"><div class="wrap"><h2>Tell me what worries you.</h2>
+<section class="cta" id="contact"><div class="wrap contactgrid"><div class="contactinfo">
+<h2>Tell me what worries you.</h2>
 <p>The first consultation is complimentary for new clients, and every consultation is confidential. Call, text, or email, or send a message and you will hear back directly within two business days.</p>
-<div class="btns"><a class="btn" href="tel:+15716432338">Call</a><a class="btn alt" href="sms:+15716432338">Text</a><a class="btn alt" href="mailto:contact@bsafeadvisor.com">Email</a></div>
-<p class="small">If you are in immediate danger, call 911. Please do not include sensitive details in this form.</p>
+<ul class="reach"><li><a href="tel:+15716432338"><span>Call</span>571-643-2338</a></li><li><a href="sms:+15716432338"><span>Text</span>571-643-2338</a></li><li><a href="mailto:contact@bsafeadvisor.com"><span>Email</span>contact@bsafeadvisor.com</a></li></ul>
+<p class="small">Also on WhatsApp and Signal at the same number.</p>
+<p class="small"><strong>If you are in immediate danger, call 911.</strong> Please do not include sensitive details in this form.</p>
+</div>
+<div class="formcol">
 <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="contact">
 <p class="hp"><label>Do not fill this out <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-<label>Name <input name="name" required autocomplete="name"></label>
+<label><span>Name <span class="req">(required)</span></span><input name="name" required autocomplete="name"></label>
 <div class="row"><label>Phone <input name="phone" type="tel" autocomplete="tel"></label><label>Email <input name="email" type="email" autocomplete="email"></label></div>
 <p class="small" style="margin:0">Please give a phone number, an email address, or both.</p>
 <label>Best way and time to reach you <input name="best_contact" placeholder="For example, text after 5 p.m."></label>
-<label>I am contacting you as <select name="role" required><option value="">Choose one</option><option>Business owner or manager</option><option>Nonprofit or house of worship</option><option>Family or individual</option><option>Parent of a student</option></select></label>
-<label>What do you need help with <select name="need" id="need" required><option value="">Choose one</option><option>Security Director on Demand</option><option>Security audit</option><option>Emergency procedures</option><option>Threat or harassment concern</option><option>Investigation</option><option>Background investigation</option><option>Skip tracing</option><option>Missing person</option><option>Travel security</option><option>Training</option><option>Not sure</option></select></label>
+<label><span>I am contacting you as <span class="req">(required)</span></span><select name="role" required><option value="">Choose one</option><option>Business owner or manager</option><option>Nonprofit or house of worship</option><option>Family or individual</option><option>Parent of a student</option></select></label>
+<label><span>What do you need help with <span class="req">(required)</span></span><select name="need" id="need" required><option value="">Choose one</option><option>Security Director on Demand</option><option>Security audit</option><option>Emergency procedures</option><option>Threat or harassment concern</option><option>Investigation</option><option>Background investigation</option><option>Skip tracing</option><option>Missing person</option><option>Travel security</option><option>Training</option><option>Not sure</option></select></label>
 <label>Brief description <textarea name="message" rows="4"></textarea></label>
 <label>How soon do you need help <select name="timing"><option value="">Choose one</option><option>Urgent</option><option>Within a week</option><option>Planning ahead</option></select></label>
 <div id="training" class="hidden"><label>Student's grade and course <input name="student_course"></label>
 <label style="display:flex;gap:8px;font-weight:400;margin-top:10px"><input type="checkbox" name="parent_consent" style="width:auto;margin-top:5px"> I am the parent or guardian and I consent to my student's participation.</label></div>
+<p id="formerr" class="err" role="alert" hidden></p>
 <button class="btn" type="submit">Send a Message</button>
 <p class="small">By sending this form, you agree to the <a href="/privacy.html">Privacy Policy</a> and <a href="/terms.html">Terms of Use</a>.</p>
-</form></div></section>
+</form>
+</div></div></section>
 </main>
 
-<footer><div class="wrap">
+<footer><div class="wrap"><img class="flogo" src="logo-white.svg" alt="B Safe Advisor Group">
 <p><strong>B Safe Advisor Group</strong> · <a href="tel:+15716432338">571-643-2338</a> (call, text, WhatsApp, or Signal) · <a href="mailto:contact@bsafeadvisor.com">contact@bsafeadvisor.com</a></p>
 <p>44927 George Washington Blvd, Suite 265 Rm 359, Ashburn, VA 20147</p>
 <p><a href="https://www.facebook.com/BSafeAdvisor" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/bsafeadvisor/" rel="noopener">Instagram</a> · <a href="https://www.linkedin.com/company/bsafeadvisor" rel="noopener">LinkedIn</a></p>
@@ -101,11 +114,16 @@
 <p><a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Use</a></p>
 </div></footer>
 <script>
-var n=document.getElementById('need'),t=document.getElementById('training');
+var n=document.getElementById('need'),t=document.getElementById('training'),mb=document.querySelector('.menubtn'),nav=document.getElementById('nav');
 n.addEventListener('change',function(){t.classList.toggle('hidden',n.value!=='Training')});
+mb.addEventListener('click',function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+nav.addEventListener('click',function(e){if(e.target.tagName==='A'){nav.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
 document.querySelector('form').addEventListener('submit',function(e){
- var f=e.target;if(!f.phone.value.trim()&&!f.email.value.trim()){e.preventDefault();alert('Please give a phone number or an email address.');}
- if(n.value==='Training'&&!f.parent_consent.checked){e.preventDefault();alert('Parent or guardian consent is required for training.');}
+ var f=e.target,er=document.getElementById('formerr'),msg='';
+ if(!f.phone.value.trim()&&!f.email.value.trim())msg='Please give a phone number, an email address, or both so I can reach you.';
+ else if(n.value==='Training'&&!f.parent_consent.checked)msg='For training, a parent or guardian must check the consent box.';
+ if(msg){e.preventDefault();er.textContent=msg;er.hidden=false;er.scrollIntoView({block:'center'})}else{er.hidden=true}
 });
 </script>
+<div class="stickybar"><a class="btn" href="tel:+15716432338">Call</a><a class="btn alt" href="sms:+15716432338">Text</a><a class="btn alt" href="#contact">Message</a></div>
 </body></html>
