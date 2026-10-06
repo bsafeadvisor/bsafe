@@ -79,12 +79,14 @@ ul.career{margin:18px 0 24px 36px;padding:4px 0 4px 28px;border-left:4px solid v
 ul.career li{margin-bottom:.85em;padding-left:4px}
 ul.career li::marker{color:var(--navy);font-size:1.15em}
 @media(max-width:600px){ul.career{margin-left:10px;padding-left:20px}}
-.orgrow{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
-.orgrow a{display:inline-block;border:2px solid var(--navy);border-radius:8px;padding:14px 18px;font-weight:700;color:var(--navy);text-decoration:none;flex:1 1 200px;text-align:center}
+.orgrow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 8px}
+.orgrow a{display:inline-block;border:2px solid var(--navy);border-radius:8px;padding:14px 12px;font-weight:700;font-size:.92rem;line-height:1.3;color:var(--navy);text-decoration:none;text-align:center;display:flex;align-items:center;justify-content:center;min-height:112px}
 .orgrow a:hover{background:#eef1f6}
 .orgrow{align-items:center}
-.orgrow .logos{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:center;gap:28px}
-.orgrow a.logo{padding:0;border:0;background:none;flex:0 0 auto;text-align:left}
+.orgrow .logos{grid-column:1/-1;grid-row:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:40px;margin-bottom:8px}
+@media(max-width:900px){.orgrow{grid-template-columns:repeat(2,1fr)}.orgrow a{min-height:88px}}
+@media(max-width:520px){.orgrow{grid-template-columns:1fr}.orgrow a{min-height:76px}}
+.orgrow a.logo{padding:0;border:0;background:none;min-height:0!important;text-align:center}
 .orgrow a.logo:hover{background:none;opacity:.85}
 .orgrow a.logo img{display:block;height:auto;width:260px;max-width:100%}
 .orgrow a.logo img[src^=nremt]{width:130px}
