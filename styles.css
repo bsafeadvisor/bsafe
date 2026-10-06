@@ -129,3 +129,8 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .callout.dark h2{color:#fff}
 .callout.dark p{color:#fff}
 .callout.dark ul li::marker{color:var(--sky)}
+.counties{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.counties span{border:1px solid var(--navy);color:var(--navy);border-radius:999px;padding:4px 12px;font-size:.9rem;font-weight:600;background:#fff}
+.steps .card{position:relative;padding-top:22px}
+.stepnum{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;margin-bottom:8px}
+.cols + .btns,.cols + h2{margin-top:44px}
