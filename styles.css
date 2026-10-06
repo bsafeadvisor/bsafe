@@ -120,3 +120,8 @@ details.faq p{margin:0 0 14px}
 .btns.center{justify-content:center;margin:30px 0}
 .cols + h2{margin-top:48px}
 details.faq + h2{margin-top:48px}
+details.cmp{margin:34px 0 44px}
+details.cmp summary{cursor:pointer;min-height:44px;display:flex;align-items:center}
+details.cmp summary h2{display:inline;margin:0}
+details.cmp .cols{margin-top:16px}
+details.cmp + script + h2,details.cmp + h2{margin-top:44px}
