@@ -75,3 +75,7 @@ ul.reach a:hover{background:#eef1f6}ul.reach span{background:var(--navy);color:#
 .safety{background:#fdecea;border:1px solid #c0392b;color:#7b1d12;padding:10px 14px;border-radius:6px}
 .aboutimg{float:right;margin:0 0 16px 24px;border-radius:8px;max-width:40%;height:auto}
 @media(max-width:600px){.aboutimg{float:none;display:block;margin:0 0 16px;max-width:60%}}
+ul.career{margin:18px 0 24px 36px;padding:4px 0 4px 28px;border-left:4px solid var(--sky)}
+ul.career li{margin-bottom:.85em;padding-left:4px}
+ul.career li::marker{color:var(--navy);font-size:1.15em}
+@media(max-width:600px){ul.career{margin-left:10px;padding-left:20px}}
