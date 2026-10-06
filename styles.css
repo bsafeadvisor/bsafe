@@ -106,3 +106,6 @@ details.more summary{cursor:pointer;font-weight:700;color:var(--blue);padding:10
 details.more[open] summary{padding-bottom:0}
 details.more ul.career{margin-left:0}
 @media(max-width:600px){ul.career{margin-left:6px;padding-left:30px}details.more{margin-left:6px}}
+.orgs.g2{grid-template-columns:repeat(2,1fr);max-width:540px;margin:0 auto;width:100%}
+.orgrow a.logo img[src^=maorca]{width:140px}
+@media(max-width:520px){.orgs.g2{grid-template-columns:1fr}}
