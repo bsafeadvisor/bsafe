@@ -79,3 +79,6 @@ ul.career{margin:18px 0 24px 36px;padding:4px 0 4px 28px;border-left:4px solid v
 ul.career li{margin-bottom:.85em;padding-left:4px}
 ul.career li::marker{color:var(--navy);font-size:1.15em}
 @media(max-width:600px){ul.career{margin-left:10px;padding-left:20px}}
+.orgrow{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
+.orgrow a{display:inline-block;border:2px solid var(--navy);border-radius:8px;padding:14px 18px;font-weight:700;color:var(--navy);text-decoration:none;flex:1 1 200px;text-align:center}
+.orgrow a:hover{background:#eef1f6}
