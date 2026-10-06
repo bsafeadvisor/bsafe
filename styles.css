@@ -109,3 +109,11 @@ details.more ul.career{margin-left:0}
 .orgs.g2{grid-template-columns:repeat(2,1fr);max-width:540px;margin:0 auto;width:100%}
 .orgrow a.logo img[src^=maorca]{width:140px}
 @media(max-width:520px){.orgs.g2{grid-template-columns:1fr}}
+.byline2{display:flex;gap:16px;align-items:center;margin:8px 0 4px}
+.byline2 img{width:80px;height:80px;border-radius:50%;object-fit:cover;flex:0 0 auto}
+.byline2 p{margin:0}
+.callout{background:#eef3f9;border-left:5px solid var(--sky);border-radius:6px;padding:6px 22px 14px;margin:28px 0}
+.callout h2{margin-top:14px}
+details.faq{border:1px solid var(--gray);border-radius:8px;margin:10px 0;padding:0 16px;background:#fff}
+details.faq summary{cursor:pointer;font-weight:700;color:var(--navy);padding:14px 0;min-height:44px;box-sizing:border-box}
+details.faq p{margin:0 0 14px}
