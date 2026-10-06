@@ -98,3 +98,11 @@ ul.career li::marker{color:var(--navy);font-size:1.15em}
 .orgnote{margin:10px 0 0;text-align:center;font-size:.85rem;color:#555}
 .orgrow .memlogo{margin-bottom:14px}
 .orgrow a.logo img[src^=loudoun]{width:140px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+ul.career.first{margin-bottom:0}
+ul.career.rest{margin-top:0}
+details.more{margin:0 0 24px 36px}
+details.more summary{cursor:pointer;font-weight:700;color:var(--blue);padding:10px 0 10px 32px;min-height:44px;box-sizing:border-box}
+details.more[open] summary{padding-bottom:0}
+details.more ul.career{margin-left:0}
+@media(max-width:600px){ul.career{margin-left:6px;padding-left:30px}details.more{margin-left:6px}}
