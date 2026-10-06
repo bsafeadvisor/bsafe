@@ -125,3 +125,7 @@ details.cmp summary{cursor:pointer;min-height:44px;display:flex;align-items:cent
 details.cmp summary h2{display:inline;margin:0}
 details.cmp .cols{margin-top:16px}
 details.cmp + script + h2,details.cmp + h2{margin-top:44px}
+.callout.dark{background:var(--navy);color:#fff;border-left-color:var(--sky);padding:8px 26px 18px}
+.callout.dark h2{color:#fff}
+.callout.dark p{color:#fff}
+.callout.dark ul li::marker{color:var(--sky)}
