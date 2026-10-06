@@ -117,3 +117,5 @@ details.more ul.career{margin-left:0}
 details.faq{border:1px solid var(--gray);border-radius:8px;margin:10px 0;padding:0 16px;background:#fff}
 details.faq summary{cursor:pointer;font-weight:700;color:var(--navy);padding:14px 0;min-height:44px;box-sizing:border-box}
 details.faq p{margin:0 0 14px}
+.btns.center{justify-content:center;margin:30px 0}
+.cols + h2{margin-top:48px}
