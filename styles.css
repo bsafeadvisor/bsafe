@@ -83,6 +83,8 @@ ul.career li::marker{color:var(--navy);font-size:1.15em}
 .orgrow a{display:inline-block;border:2px solid var(--navy);border-radius:8px;padding:14px 18px;font-weight:700;color:var(--navy);text-decoration:none;flex:1 1 200px;text-align:center}
 .orgrow a:hover{background:#eef1f6}
 .orgrow{align-items:center}
-.orgrow a.logo{padding:0;border:0;background:none;flex:0 0 100%;text-align:left}
+.orgrow .logos{flex:0 0 100%;display:flex;flex-wrap:wrap;align-items:center;gap:28px}
+.orgrow a.logo{padding:0;border:0;background:none;flex:0 0 auto;text-align:left}
 .orgrow a.logo:hover{background:none;opacity:.85}
 .orgrow a.logo img{display:block;height:auto;width:260px;max-width:100%}
+.orgrow a.logo img[src^=nremt]{width:130px}
