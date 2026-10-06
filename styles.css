@@ -119,3 +119,4 @@ details.faq summary{cursor:pointer;font-weight:700;color:var(--navy);padding:14p
 details.faq p{margin:0 0 14px}
 .btns.center{justify-content:center;margin:30px 0}
 .cols + h2{margin-top:48px}
+details.faq + h2{margin-top:48px}
