@@ -150,3 +150,8 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .card .viewlink{margin:.8em 0 0;font-weight:700}
 .card .viewlink a{color:var(--blue);text-decoration:underline}
 .counties+p{margin-top:1em}
+.jump{display:flex;flex-wrap:wrap;gap:8px 16px;margin:18px 0;padding:12px 16px;background:var(--gray);border-radius:8px;font-size:.95rem}.jump strong{color:var(--navy)}
+.tablewrap{margin:14px 0 8px}.agtable{width:100%;border-collapse:collapse;font-size:.94rem;background:#fff}.agtable th,.agtable td{text-align:left;padding:10px 12px;border:1px solid var(--gray);vertical-align:top}.agtable th{background:var(--navy);color:#fff;font-weight:700}
+@media(max-width:700px){.agtable thead{position:absolute;left:-9999px}.agtable,.agtable tbody,.agtable tr,.agtable td{display:block;width:100%}.agtable tr{margin-bottom:12px;border:1px solid var(--gray);border-radius:8px;overflow:hidden}.agtable td{border:0;border-bottom:1px solid var(--gray);padding:8px 12px}.agtable td::before{content:attr(data-label);display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--blue)}}
+.tablenote{font-size:.9rem;color:#444}.factlist{padding-left:20px}.factlist li{margin:6px 0}.factlist a.src{font-size:.82rem}
+.agtable a[href^="tel:"]{white-space:nowrap}
