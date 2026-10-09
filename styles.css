@@ -147,3 +147,4 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .card h3 a.cardlink:hover{text-decoration:none}
 .card .viewlink{margin:.8em 0 0;font-weight:700}
 .card .viewlink a{color:var(--blue);text-decoration:underline}
+.counties+p{margin-top:1em}
