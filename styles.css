@@ -1,5 +1,5 @@
 :root{--navy:#253551;--blue:#1b5ca6;--blue-h:#1d66ab;--text:#2a2829;--gray:#e0e0db;--dark:#253551;--sky:#29a8e0}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
+*{box-sizing:border-box}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:#fff}
 h1,h2,h3{color:var(--navy);line-height:1.2;margin:0 0 .5em}
 h1{font-size:clamp(2.2rem,5vw,3.4rem)}h2{font-size:clamp(1.6rem,3vw,2.1rem)}h3{font-size:1.15rem}
@@ -70,6 +70,8 @@ ul.reach a:hover{background:#eef1f6}ul.reach span{background:var(--navy);color:#
  .stickybar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--gray);padding:8px 12px;z-index:30;box-shadow:0 -4px 12px rgba(0,0,0,.08)}
  .stickybar .btn{flex:1;text-align:center;padding:12px 8px}
  body{padding-bottom:68px}
+ .btns.center{display:none}
+ .btns a[href^="tel:"],.btns a[href^="sms:"],.btns a[href="/contact.html"],.btns a[href="#contact"]{display:none}
 }
 .draftbanner{background:#fff3cd;border-bottom:2px solid #e0a800;color:#4d3b00;padding:10px 20px;font-size:.92rem;text-align:center}
 .safety{background:#fdecea;border:1px solid #c0392b;color:#7b1d12;padding:10px 14px;border-radius:6px}
