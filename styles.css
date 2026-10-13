@@ -167,3 +167,4 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .crumbs{margin:0 0 14px}.crumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:2px 8px;margin:0;padding:0;font-size:.9rem}.crumbs li+li::before{content:"/";margin-right:8px;color:#4b5563}.crumbs [aria-current]{color:#4b5563}.card h2.ct{font-size:1.15rem;margin:0 0 .5em}
 #services .card{background:#f4f4f1}
 #services .grp{background:var(--navy);color:#fff;border-left:6px solid var(--sky);border-radius:6px;padding:10px 16px;margin:36px 0 16px;font-size:.9rem}
+details.cmp .card{background:#fff8e1;border-color:#ead9a3}
