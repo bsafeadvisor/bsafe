@@ -180,3 +180,5 @@ a.ol.txt strong{font-size:1rem}a.ol.txt small{font-size:.66rem;line-height:1.2;f
 @media(max-width:600px){a.ol.cfe img{width:130px}a.ol.txt{width:140px}}
 
 .small.warn{color:#7b1d12;font-weight:700}
+
+p + h2.gap{margin-top:44px}
