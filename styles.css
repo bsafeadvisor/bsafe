@@ -178,3 +178,5 @@ a.ol img{display:block;height:auto}a.ol.cfe img{width:150px}a.ol.nr img{width:70
 a.ol.txt{flex-direction:column;border:2px solid var(--navy);border-radius:8px;padding:8px 10px;width:128px;text-align:center;color:var(--navy);gap:2px}
 a.ol.txt strong{font-size:1rem}a.ol.txt small{font-size:.66rem;line-height:1.2;font-weight:600}
 @media(max-width:600px){a.ol.cfe img{width:130px}a.ol.txt{width:140px}}
+
+.small.warn{color:#7b1d12;font-weight:700}
