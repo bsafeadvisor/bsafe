@@ -170,3 +170,4 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 details.cmp .card{background:#fff8e1;border-color:#ead9a3}
 .hero figure{margin:0;justify-self:center;width:100%;max-width:380px}.hero figcaption{text-align:center;margin-top:12px;line-height:1.35;font-size:.95rem;color:var(--text)}.hero figcaption strong{color:var(--navy);font-size:1.1rem}
 @media(max-width:760px){.hero figure{order:-1;display:flex;align-items:center;gap:14px;justify-self:start;max-width:none}.hero figcaption{text-align:left;margin:0}}
+.team{display:flex;gap:24px;align-items:flex-start;margin-top:8px}.team img{width:180px;height:180px;border-radius:8px;object-fit:cover;flex:0 0 auto}.team h3{margin:0}.team .role{margin:.2em 0 .8em;color:var(--navy);font-weight:600}@media(max-width:600px){.team{flex-direction:column;gap:14px}.team img{width:140px;height:140px}}
