@@ -8,7 +8,7 @@
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-qJeuDd5y9uFJTXn1TNpnbvssupT068YrijShmqACKxk=' 'sha256-euCSZyJomDU/u5wq/x5AsBoUZ6qBApGvJey487NOP6I=' 'sha256-XwjzOXIOizR+meRChtkDYBklL9MxVloSobaygyiFpDU='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
 
 /*.css
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*.jpg
   Cache-Control: public, max-age=604800
