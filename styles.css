@@ -156,3 +156,6 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .tablenote{font-size:.9rem;color:#444}.factlist{padding-left:20px}.factlist li{margin:6px 0}.factlist a.src{font-size:.82rem}
 .agtable a[href^="tel:"]{white-space:nowrap}
 @media(max-width:480px){.jump{gap:6px 12px;padding:10px 12px;font-size:.88rem}}
+.card .learn{margin:10px 0 0;font-weight:700}
+.jump a{display:inline-block;padding:3px 0}
+.btns + h2{margin-top:44px}
