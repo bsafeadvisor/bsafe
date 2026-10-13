@@ -159,3 +159,4 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .card .learn{margin:10px 0 0;font-weight:700}
 .jump a{display:inline-block;padding:3px 0}
 .btns + h2{margin-top:44px}
+.divider{border:0;border-top:1px solid #cfd5de;margin:36px 0 8px}
