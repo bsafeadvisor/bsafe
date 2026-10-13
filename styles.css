@@ -168,3 +168,5 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 #services .card{background:#f4f4f1}
 #services .grp{background:var(--navy);color:#fff;border-left:6px solid var(--sky);border-radius:6px;padding:10px 16px;margin:36px 0 16px;font-size:.9rem}
 details.cmp .card{background:#fff8e1;border-color:#ead9a3}
+.hero figure{margin:0;justify-self:center;width:100%;max-width:380px}.hero figcaption{text-align:center;margin-top:12px;line-height:1.35;font-size:.95rem;color:var(--text)}.hero figcaption strong{color:var(--navy);font-size:1.1rem}
+@media(max-width:760px){.hero figure{order:-1;display:flex;align-items:center;gap:14px;justify-self:start;max-width:none}.hero figcaption{text-align:left;margin:0}}
