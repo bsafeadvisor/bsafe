@@ -155,3 +155,4 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 @media(max-width:700px){.agtable thead{position:absolute;left:-9999px}.agtable,.agtable tbody,.agtable tr,.agtable td{display:block;width:100%}.agtable tr{margin-bottom:12px;border:1px solid var(--gray);border-radius:8px;overflow:hidden}.agtable td{border:0;border-bottom:1px solid var(--gray);padding:8px 12px}.agtable td::before{content:attr(data-label);display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--blue)}}
 .tablenote{font-size:.9rem;color:#444}.factlist{padding-left:20px}.factlist li{margin:6px 0}.factlist a.src{font-size:.82rem}
 .agtable a[href^="tel:"]{white-space:nowrap}
+@media(max-width:480px){.jump{gap:6px 12px;padding:10px 12px;font-size:.88rem}}
