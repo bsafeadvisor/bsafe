@@ -145,7 +145,7 @@ details.cmp + script + h2,details.cmp + h2{margin-top:44px}
 .gap{margin-top:52px}
 .nb{white-space:nowrap}
 
-.card h3 a.cardlink{color:var(--blue);text-decoration:underline}
+.card h3 a.cardlink{color:var(--navy);text-decoration:underline}
 .card h3 a.cardlink::after{content:" \2192"}
 .card h3 a.cardlink:hover{text-decoration:none}
 .card .viewlink{margin:.8em 0 0;font-weight:700}
