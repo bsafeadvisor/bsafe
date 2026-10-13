@@ -72,6 +72,7 @@ ul.reach a:hover{background:#eef1f6}ul.reach span{background:var(--navy);color:#
  body{padding-bottom:68px}
  .btns.center{display:none}
  .btns a[href^="tel:"],.btns a[href^="sms:"],.btns a[href="/contact.html"],.btns a[href="#contact"]{display:none}
+ .cta .btns a[href]{display:inline-block}
 }
 .draftbanner{background:#fff3cd;border-bottom:2px solid #e0a800;color:#4d3b00;padding:10px 20px;font-size:.92rem;text-align:center}
 .safety{background:#fdecea;border:1px solid #c0392b;color:#7b1d12;padding:10px 14px;border-radius:6px}
