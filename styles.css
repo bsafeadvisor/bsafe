@@ -187,3 +187,5 @@ p + h2.gap{margin-top:44px}
 .hl{background:#fff3c4;border-left:4px solid #e0b300;border-radius:6px;padding:10px 14px;font-weight:600;margin:14px 0 0}
 ul.tick.topics{columns:2;column-gap:32px}ul.tick.topics li{break-inside:avoid}@media(max-width:760px){ul.tick.topics{columns:1}}
 .cols.stack{margin-top:16px}
+.contactgrid>*{min-width:0}.reach a{min-width:0;overflow-wrap:anywhere}
+@media(max-width:360px){ul.reach a{gap:8px;padding:14px 10px;font-size:.84rem}ul.reach span{min-width:54px;padding:4px 6px;font-size:.82rem}}
