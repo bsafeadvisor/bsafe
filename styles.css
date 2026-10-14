@@ -184,3 +184,6 @@ a.ol.txt strong{font-size:1rem}a.ol.txt small{font-size:.66rem;line-height:1.2;f
 p + h2.gap{margin-top:44px}
 
 .card.warm{background:#fff8e1;border-color:#ead9a3}.card.good{background:#eaf6ee;border-color:#b7d9c2}
+.hl{background:#fff3c4;border-left:4px solid #e0b300;border-radius:6px;padding:10px 14px;font-weight:600;margin:14px 0 0}
+ul.tick.topics{columns:2;column-gap:32px}ul.tick.topics li{break-inside:avoid}@media(max-width:760px){ul.tick.topics{columns:1}}
+.cols.stack{margin-top:16px}
