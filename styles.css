@@ -182,3 +182,5 @@ a.ol.txt strong{font-size:1rem}a.ol.txt small{font-size:.66rem;line-height:1.2;f
 .small.warn{color:#7b1d12;font-weight:700}
 
 p + h2.gap{margin-top:44px}
+
+.card.warm{background:#fff8e1;border-color:#ead9a3}.card.good{background:#eaf6ee;border-color:#b7d9c2}
