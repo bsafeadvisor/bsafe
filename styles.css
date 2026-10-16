@@ -192,3 +192,6 @@ ul.tick.topics{columns:2;column-gap:32px}ul.tick.topics li{break-inside:avoid}@m
 .contactgrid .crumbs{grid-column:1/-1;margin:0}
 
 ul.tick.indent{margin-left:28px}
+
+.hero .kicker{font-size:1.15rem;font-weight:700;letter-spacing:.02em;color:var(--blue);margin:0 0 6px}
+.hero h1{font-size:clamp(1.9rem,4vw,2.6rem)}
