@@ -221,3 +221,7 @@ header.site nav .ddm a:hover,header.site nav .ddm a:focus{background:#eef1f6}
 }
 
 .announce{background:var(--sky);color:#10243b;font-size:1rem;text-align:center}.announce .wrap{padding:9px 20px}.announce a{color:#10243b;font-weight:700;text-decoration:underline}
+
+.ddm .subm{list-style:none;margin:0;padding:0}
+header.site nav .ddm .subm a{padding:6px 18px 6px 34px;font-weight:500;font-size:.95em;color:var(--blue)}
+@media (max-width:760px){header.site nav .ddm .subm a{padding:8px 0 8px 18px;font-size:1em}}
