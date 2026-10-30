@@ -16,3 +16,7 @@
   Cache-Control: public, max-age=604800
 /*.svg
   Cache-Control: public, max-age=604800
+
+/attendee-resources-x7k2m9/*
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
+  Cache-Control: private, no-store
