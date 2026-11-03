@@ -1,3 +1,17 @@
+# Alternate B Safe domains redirect to the primary site (host-based rules must stay at the top)
+https://besafeadvisor.com/* https://www.bsafeadvisor.com/:splat 301!
+http://besafeadvisor.com/* https://www.bsafeadvisor.com/:splat 301!
+https://www.besafeadvisor.com/* https://www.bsafeadvisor.com/:splat 301!
+http://www.besafeadvisor.com/* https://www.bsafeadvisor.com/:splat 301!
+https://bsafeadvisorgroup.com/* https://www.bsafeadvisor.com/:splat 301!
+http://bsafeadvisorgroup.com/* https://www.bsafeadvisor.com/:splat 301!
+https://www.bsafeadvisorgroup.com/* https://www.bsafeadvisor.com/:splat 301!
+http://www.bsafeadvisorgroup.com/* https://www.bsafeadvisor.com/:splat 301!
+https://bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
+http://bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
+https://www.bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
+http://www.bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
+
 /contact /contact.html 301!
 /why /about.html 301
 /services /#services 301
