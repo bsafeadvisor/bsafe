@@ -12,27 +12,27 @@ http://bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
 https://www.bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
 http://www.bsafeadvisor.us/* https://www.bsafeadvisor.com/:splat 301!
 
-# Ten county pages held until approved: serve a 404 until launch (files stay in the repo)
-/security-services-arlington-county /404.html 404!
-/security-services-arlington-county.html /404.html 404!
-/security-services-clarke-county /404.html 404!
-/security-services-clarke-county.html /404.html 404!
-/security-services-culpeper-county /404.html 404!
-/security-services-culpeper-county.html /404.html 404!
-/security-services-fauquier-county /404.html 404!
-/security-services-fauquier-county.html /404.html 404!
-/security-services-frederick-county /404.html 404!
-/security-services-frederick-county.html /404.html 404!
-/security-services-page-county /404.html 404!
-/security-services-page-county.html /404.html 404!
-/security-services-prince-william-county /404.html 404!
-/security-services-prince-william-county.html /404.html 404!
-/security-services-rappahannock-county /404.html 404!
-/security-services-rappahannock-county.html /404.html 404!
-/security-services-shenandoah-county /404.html 404!
-/security-services-shenandoah-county.html /404.html 404!
-/security-services-warren-county /404.html 404!
-/security-services-warren-county.html /404.html 404!
+# Ten county pages held until approved: send visitors to the service area page until launch (temporary 302; files stay in the repo)
+/security-services-arlington-county /service-area.html 302!
+/security-services-arlington-county.html /service-area.html 302!
+/security-services-clarke-county /service-area.html 302!
+/security-services-clarke-county.html /service-area.html 302!
+/security-services-culpeper-county /service-area.html 302!
+/security-services-culpeper-county.html /service-area.html 302!
+/security-services-fauquier-county /service-area.html 302!
+/security-services-fauquier-county.html /service-area.html 302!
+/security-services-frederick-county /service-area.html 302!
+/security-services-frederick-county.html /service-area.html 302!
+/security-services-page-county /service-area.html 302!
+/security-services-page-county.html /service-area.html 302!
+/security-services-prince-william-county /service-area.html 302!
+/security-services-prince-william-county.html /service-area.html 302!
+/security-services-rappahannock-county /service-area.html 302!
+/security-services-rappahannock-county.html /service-area.html 302!
+/security-services-shenandoah-county /service-area.html 302!
+/security-services-shenandoah-county.html /service-area.html 302!
+/security-services-warren-county /service-area.html 302!
+/security-services-warren-county.html /service-area.html 302!
 
 /contact /contact.html 301!
 /why /about.html 301
